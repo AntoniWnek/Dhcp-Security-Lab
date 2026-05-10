@@ -9,6 +9,7 @@ Celem projektu była analiza podatności protokołu DHCP na ataki w warstwie 2 m
 **Język:** Python (biblioteka Scapy) 
 **Środowisko:** MikroTik RouterOS (fizyczny switch/router) 
 **Analiza i weryfikacja:** Wireshark 
+**Uwaga techniczna**: Skrypty zostały opracowane i przetestowane w kontrolowanym środowisku laboratoryjnym (fizyczne urządzenia MikroTik). Skuteczność ich działania w innych środowiskach zależy od konfiguracji sprzętowej oraz aktywnych mechanizmów zabezpieczających (np. wbudowane funkcje ochrony L2 w innych systemach sieciowych).
 
 ## Funkcjonalności skryptów
 1. **DHCP Starvation:** Skrypt w Pythonie (Scapy) generujący masowe pakiety DHCP DISCOVER z dynamicznie zmienianym adresem MAC (MAC Spoofing) w celu wyczerpania puli adresowej serwera.
@@ -34,6 +35,7 @@ The goal of this project was to analyze DHCP protocol vulnerabilities in Layer 2
 **Programming language:** Python (Scapy library) 
 **Hardware:** MikroTik RouterOS (switch/router) 
 **Analysis:** Wireshark 
+**Technical Note**: These scripts were developed and tested in a controlled lab environment using physical MikroTik hardware. Their effectiveness in other environments may vary depending on hardware configuration and active security mechanisms (e.g., built-in L2 protection features in different networking platforms).
 
 ## Scripts overview
 1. **DHCP Starvation:** A Python script using Scapy to generate mass DHCP DISCOVER messages with random MAC addresses (MAC Spoofing) to exhaust the DHCP server's IP pool.
