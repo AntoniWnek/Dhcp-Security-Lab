@@ -8,7 +8,7 @@ Celem projektu była analiza podatności protokołu DHCP na ataki w warstwie 2 m
 ## Wykorzystane technologie
 **Atak**:
   1. DHCPig - oprogramowanie do DHCP Starvation <br>
-  2. Metasploit - oprogramowanie do implementacji nieautoryzowanego serwera (Rogue Server) <br>
+  2. Metasploit - oprogramowanie do implementacji nieautoryzowanego serwera DHCP (Rogue Server) <br>
   3. Autorskie skrypty (metoda alternatywna) - napisane w Pythonie przy użyciu biblioteki Scapy <br>
   4. Bettercap - Przejęcie ruchu sieciowego <br>
   
