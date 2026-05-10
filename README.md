@@ -15,7 +15,7 @@ Celem projektu była analiza podatności protokołu DHCP na ataki w warstwie 2 m
 **Analiza i weryfikacja:** Wireshark <br>
 
 ## Funkcjonalności skryptów
-1. **DHCP Starvation:** Skrypt w Pythonie (Scapy) generujący masowe pakiety DHCP DISCOVER z dynamicznie zmienianym adresem MAC (MAC Spoofing) w celu wyczerpania puli adresowej serwera.
+1. **DHCP Starvation (wkrótce dostępne):** Skrypt w Pythonie (Scapy) generujący masowe pakiety DHCP DISCOVER z dynamicznie zmienianym adresem MAC (MAC Spoofing) w celu wyczerpania puli adresowej serwera.
 2. **Rogue DHCP:** Skrypt w Pythonie (Scapy), implementujący nieautoryzowany serwer (Rogue Server) pozwalający na przejęcie roli bramy domyślnej i przeprowadzenie ataku Man-in-the-Middle (MitM).
 
 **Uwaga techniczna**: Skrypty zostały opracowane i przetestowane w kontrolowanym środowisku laboratoryjnym (fizyczne urządzenia MikroTik). Skuteczność ich działania w innych środowiskach zależy od konfiguracji sprzętowej oraz aktywnych mechanizmów zabezpieczających (np. wbudowane funkcje ochrony L2 w innych systemach sieciowych).
@@ -47,7 +47,7 @@ The goal of this project was to analyze DHCP protocol vulnerabilities in Layer 2
 **Analysis:** Wireshark <br>
 
 ## Scripts overview
-1. **DHCP Starvation:** A Python script using Scapy to generate mass DHCP DISCOVER messages with random MAC addresses (MAC Spoofing) to exhaust the DHCP server's IP pool.  
+1. **DHCP Starvation (coming soon):** A Python script using Scapy to generate mass DHCP DISCOVER messages with random MAC addresses (MAC Spoofing) to exhaust the DHCP server's IP pool.  
 2. **Rogue DHCP:** A Python script for deploying an unauthorized DHCP server to redirect client traffic by spoofing Default Gateway and DNS settings (MitM attack).
 
 **Technical Note**: These scripts were developed and tested in a controlled lab environment using physical MikroTik hardware. Their effectiveness in other environments may vary depending on hardware configuration and active security mechanisms (e.g., built-in L2 protection features in different networking platforms).
