@@ -23,8 +23,9 @@ Celem projektu była analiza podatności protokołu DHCP na ataki w warstwie 2 m
 ## Disclaimer
 To narzędzie służy wyłącznie do celów edukacyjnych oraz legalnych testów penetracyjnych. Może być wykorzystywane jedynie w odizolowanych środowiskach laboratoryjnych lub sieciach, w których uzyskano wyraźną zgodę na przeprowadzenie testów. Nieautoryzowane użycie skryptów przeciwko systemom informatycznym jest nielegalne i podlega odpowiedzialności karnej.
 
-## Autor
+## Autorzy
 **Jakub Malisz** 
+**Antoni Wnęk**
 
 ---
 
@@ -40,7 +41,7 @@ The goal of this project was to analyze DHCP protocol vulnerabilities in Layer 2
 **Technical Note**: These scripts were developed and tested in a controlled lab environment using physical MikroTik hardware. Their effectiveness in other environments may vary depending on hardware configuration and active security mechanisms (e.g., built-in L2 protection features in different networking platforms).
 
 ## Scripts overview
-1. **DHCP Starvation:** A Python script using Scapy to generate mass DHCP DISCOVER messages with random MAC addresses (MAC Spoofing) to exhaust the DHCP server's IP pool.
+1. **DHCP Starvation:** A Python script using Scapy to generate mass DHCP DISCOVER messages with random MAC addresses (MAC Spoofing) to exhaust the DHCP server's IP pool.  
 2. **Rogue DHCP:** Deployment of an unauthorized DHCP server to redirect client traffic by spoofing Default Gateway and DNS settings (MitM attack).
 
 ## Mitigation Strategies
@@ -50,6 +51,7 @@ The goal of this project was to analyze DHCP protocol vulnerabilities in Layer 2
 ## Disclaimer
 This tool is for educational and ethical hacking purposes only. Use it only in isolated lab environments or networks where you have explicit permission. Unauthorized use against systems is illegal.
 
-## Author
+## Authors
 **Jakub Malisz**
+**Antoni Wnęk**
 
