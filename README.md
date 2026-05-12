@@ -2,14 +2,20 @@
 [PL](#polski) | [EN](#english)
 
 <a name="polski"></a>
+**TL;DR:**
+
 ## Opis projektu
 Celem projektu była analiza podatności protokołu DHCP na ataki w warstwie 2 modelu OSI oraz praktyczna implementacja mechanizmów obronnych na fizycznych urządzeniach sieciowych MikroTik.
+
+## Dokumentacja projektu
+Pełny opis teoretyczny, konfiguracja urządzeń oraz szczegółowa analiza wyników znajduje się w pliku:
+**[Pobierz Dokumentację PDF](./docs/Dhcp-Security-Lab-Documentation.pdf)**
 
 ## Wykorzystane technologie
 **Atak**:
   1. DHCPig - oprogramowanie do DHCP Starvation <br>
   2. Metasploit - oprogramowanie do implementacji nieautoryzowanego serwera DHCP (Rogue Server) <br>
-  3. **Autorskie skrypty (metoda alternatywna)** 
+  3. **Autorskie skrypty w Python+Scapy (metoda alternatywna)** 
   4. Bettercap - Przejęcie ruchu sieciowego <br>
   
 **Środowisko:** MikroTik RouterOS (fizyczny switch/router) <br>
@@ -35,8 +41,14 @@ To narzędzie służy wyłącznie do celów edukacyjnych oraz legalnych testów 
 ---
 
 <a name="english"></a>
+**TL;DR:**
+
 ## Project overview
 The goal of this project was to analyze DHCP protocol vulnerabilities in Layer 2 of the OSI model and implement security procedures on networking hardware. 
+
+## Project Documentation
+Full theoretical description, device configuration, and detailed analysis of results can be found here:
+**[Download PDF Documentation (PL)](./docs/Dhcp-Security-Lab-Documentation.pdf.pdf)**
 
 ## Tech stack
 **Attack**:
