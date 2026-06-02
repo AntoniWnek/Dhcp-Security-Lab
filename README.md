@@ -22,7 +22,7 @@ Pełny opis teoretyczny, konfiguracja urządzeń oraz szczegółowa analiza wyni
 **Analiza i weryfikacja:** Wireshark <br>
 
 ## Funkcjonalność skryptów
-1. **DHCP Starvation (wkrótce dostępne):** Skrypt w Pythonie (Scapy) generujący masowe pakiety DHCP DISCOVER z dynamicznie zmienianym adresem MAC (MAC Spoofing) w celu wyczerpania puli adresowej serwera.
+1. **DHCP Starvation:** Skrypt w Pythonie (Scapy) generujący masowe pakiety DHCP DISCOVER z dynamicznie zmienianym adresem MAC (MAC Spoofing) w celu wyczerpania puli adresowej serwera.
 2. **Rogue DHCP:** Skrypt w Pythonie (Scapy), implementujący nieautoryzowany serwer (Rogue Server) pozwalający na przejęcie roli bramy domyślnej i przeprowadzenie ataku Man-in-the-Middle (MitM).
 
 **Uwaga techniczna**: Skrypty zostały opracowane i przetestowane w kontrolowanym środowisku laboratoryjnym (fizyczne urządzenia MikroTik). Skuteczność ich działania w innych środowiskach zależy od konfiguracji sprzętowej oraz aktywnych mechanizmów zabezpieczających (np. wbudowane funkcje ochrony L2 w innych systemach sieciowych).
