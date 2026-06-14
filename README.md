@@ -1,4 +1,10 @@
 # DHCP Security Analysis
+
+> **Co-authored Engineering Project**
+> Ten projekt został zrealizowany w pełnej współpracy (pair-engineering) przez **Jakuba Malisza** oraz **Antoniego Wnęka**. Obaj autorzy wspólnie odpowiadają za pełen cykl projektu: od napisania autorskich skryptów w Python/Scapy, po konfigurację i mitygację ataków na fizycznych urządzeniach sieciowych MikroTik. 
+> 
+> *This project was developed in full collaboration. Both authors are equally responsible for the entire project lifecycle, including Python/Scapy script development, hardware configuration, and attack mitigation on MikroTik devices.*
+
 [PL](#polski) | [EN](#english)
 
 <a name="polski"></a>
@@ -15,8 +21,7 @@ Pełny opis teoretyczny, konfiguracja urządzeń oraz szczegółowa analiza wyni
 **Atak**:
   1. DHCPig - oprogramowanie do DHCP Starvation <br>
   2. Metasploit - oprogramowanie do implementacji nieautoryzowanego serwera DHCP (Rogue Server) <br>
-  3. **Autorskie skrypty w Python+Scapy (metoda alternatywna)** 
-  4. Bettercap - Przejęcie ruchu sieciowego <br>
+  3. **Autorskie skrypty w Python+Scapy (metoda alternatywna)** 4. Bettercap - Przejęcie ruchu sieciowego <br>
   
 **Środowisko:** MikroTik RouterOS (fizyczny switch/router) <br>
 **Analiza i weryfikacja:** Wireshark <br>
@@ -54,8 +59,7 @@ Full theoretical description, device configuration, and detailed analysis of res
 **Attack**:
   1. DHCPig – specialized tool for DHCP Starvation attacks <br>
   2. Metasploit Framework – used for rogue DHCP server implementation <br>
-  3. **Custom Scripts (Alternative method)** 
-  4. Bettercap – traffic interception <br>
+  3. **Custom Scripts (Alternative method)** 4. Bettercap – traffic interception <br>
   
 **Hardware:** MikroTik RouterOS (switch/router) <br>
 **Analysis:** Wireshark <br>
@@ -76,4 +80,3 @@ This tool is for educational and ethical hacking purposes only. Use it only in i
 ## Authors
 **Jakub Malisz** <br>
 **Antoni Wnęk**
-
